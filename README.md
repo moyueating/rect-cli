@@ -12,7 +12,7 @@
 npm install -g rect-cli
 
 // 新建一个项目
-rect-cli myProjectName
+rect myProjectName
 
 // 启动
 cd myProjectName
