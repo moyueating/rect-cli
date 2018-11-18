@@ -50,12 +50,12 @@ commander.parse(process.argv);
 if(typeof projectName === 'undefined') {
   console.error('Please specify the project directory:');
   console.log();
-  console.log(`${chalk.cyan('rect-cli')} ${chalk.green('<project-directory>')}`);
+  console.log(`${chalk.cyan('rect')} ${chalk.green('<project-directory>')}`);
   console.log();
   console.log('For example:');
-  console.log(`${chalk.cyan('rect-cli')} ${chalk.green('my-project')}`);
+  console.log(`${chalk.cyan('rect')} ${chalk.green('my-project')}`);
   console.log();
-  console.log(`Run ${chalk.cyan(`${'rect-cli'} --help`)} to see all options.`);
+  console.log(`Run ${chalk.cyan(`${'rect'} --help`)} to see all options.`);
   process.exit(1);
 }
 
