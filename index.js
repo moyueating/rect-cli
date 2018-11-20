@@ -76,16 +76,16 @@ function createApp(name) {
     let repoUrl
     const { type } = answer
     if(type.indexOf('antd') > -1){
-      repoUrl = 'github:moyueating/antd-template'
+      repoUrl = 'direct:https://github.com/moyueating/antd-template.git'
     }else if(type.indexOf('H5') > -1){
-      repoUrl = 'github:moyueating/h5-template'
+      repoUrl = 'direct:https://github.com/moyueating/h5-template.git'
     }else if(type.indexOf('redux') > -1){
       console.log('redux')
     }else if(type.indexOf('mobx') > -1){
-      repoUrl = 'github:moyueating/mobx-template'
+      repoUrl = 'direct:https://github.com/moyueating/mobx-template.git'
     }else{
       // 使用默认模板
-      repoUrl = 'github:moyueating/base-template'
+      repoUrl = 'direct:https://github.com/moyueating/base-template.git'
     }
 
     // 创建之前校验应用名以符合规则
